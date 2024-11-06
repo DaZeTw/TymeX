@@ -1,0 +1,95 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="zMn6w7YD8imdOvJpt2Xk">
+    <mxGraphModel dx="1948" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="-434" width="410" height="418" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-2" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-490" y="-272" width="100" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-3" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.web_ui;" vertex="1" parent="ho8a_0FHn6UHZhN8TZRO-2">
+          <mxGeometry x="20" width="60" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-4" value="User Interface" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ho8a_0FHn6UHZhN8TZRO-2">
+          <mxGeometry y="62" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-660" y="-260" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-6" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.user_group" vertex="1" parent="ho8a_0FHn6UHZhN8TZRO-5">
+          <mxGeometry width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-7" value="Users" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ho8a_0FHn6UHZhN8TZRO-5">
+          <mxGeometry y="40" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-230" y="-390" width="90" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-9" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#01A88D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sagemaker_model;" vertex="1" parent="ho8a_0FHn6UHZhN8TZRO-8">
+          <mxGeometry x="6" y="-10" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-10" value="NLP Module" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ho8a_0FHn6UHZhN8TZRO-8">
+          <mxGeometry y="78" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-50" y="-250" width="80" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-12" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.json_script;" vertex="1" parent="ho8a_0FHn6UHZhN8TZRO-11">
+          <mxGeometry x="11.5" width="57" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-13" value="JSON Files" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ho8a_0FHn6UHZhN8TZRO-11">
+          <mxGeometry y="78" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ho8a_0FHn6UHZhN8TZRO-6" target="ho8a_0FHn6UHZhN8TZRO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ho8a_0FHn6UHZhN8TZRO-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-190" y="-280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-16" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-255" y="-120" width="140" height="85.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-17" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/infrastructure/mobile_backend.svg;" vertex="1" parent="ho8a_0FHn6UHZhN8TZRO-16">
+          <mxGeometry x="40" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-18" value="Management System" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ho8a_0FHn6UHZhN8TZRO-16">
+          <mxGeometry y="55.5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.435;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ho8a_0FHn6UHZhN8TZRO-13" target="ho8a_0FHn6UHZhN8TZRO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.498;entryY=0.928;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ho8a_0FHn6UHZhN8TZRO-17" target="ho8a_0FHn6UHZhN8TZRO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ho8a_0FHn6UHZhN8TZRO-9" target="ho8a_0FHn6UHZhN8TZRO-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-22" value="Send messages" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="-272" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-23" value="Deliver Messages" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="-272" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-24" value="Extract Information" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="-390" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-25" value="Response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="-92.25" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-26" value="JSON structure" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="-630" y="-460" width="140" height="30" as="geometry">
+            <mxRectangle x="-630" y="-550" width="280" height="416" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ho8a_0FHn6UHZhN8TZRO-27" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;users&quot;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;user_id&quot;: &quot;string&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;name&quot;: &quot;string&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;availability&quot;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;day&quot;: &quot;string&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;start_time&quot;: &quot;HH:MM&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;end_time&quot;: &quot;HH:MM&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;constraints&quot;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;type&quot;: &quot;string&quot;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;day&quot;: &quot;string&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;start_time&quot;: &quot;HH:MM&quot;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;end_time&quot;: &quot;HH:MM&quot;,&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;message&quot;: &quot;string&quot;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;preferences&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;preferred_time_of_day&quot;: &quot;string&quot;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;notes&quot;: &quot;string&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; ]&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ho8a_0FHn6UHZhN8TZRO-26">
+          <mxGeometry y="16" width="230" height="420" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
