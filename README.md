@@ -28,11 +28,7 @@ The system for retrieving and displaying shipping information works as follows:
    - **Function**: Provides real-time shipping updates. The Management System interacts with these services (e.g., FedEx, UPS) to retrieve the latest tracking information.
    - **Description**: External shipping carriers integrated into the system for up-to-date tracking.
 
-7. **Response Flow**
-   - **Function**: The Management System sends a response back to the API Gateway, which forwards it to the **User Interface**. The user can then view the current shipping status and tracking updates.
-   - **Description**: Completes the information loop by delivering the requested data back to the user.
-
-### Answer to Question 2: Functions and Descriptions of Each Component
+### Answer to Question 2: 
 
 ![System Diagram for Question 2](./Question2.png)
 
@@ -56,7 +52,7 @@ The system for retrieving and displaying shipping information works as follows:
    - **Function**: Analyzes the data in JSON files, identifies overlapping time slots, and generates scheduling suggestions.
    - **Description**: Responsible for processing user availability and constraints, finding suitable meeting times, and sending responses back through the User Interface.
 
-## System Workflow
+### System Workflow
 
 1. **User Input**: Users enter availability and preferences through the User Interface (web, mobile, or chat).
 2. **NLP Parsing**: The NLP Module interprets the natural language input and converts it into structured JSON data.
