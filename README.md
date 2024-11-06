@@ -1,10 +1,40 @@
-# Meeting Scheduler System
+### Answer to Question 1: System Description
 
-This Meeting Scheduler System is designed to help multiple users schedule meetings based on their availability, preferences, and constraints provided through natural language. It interprets the input, finds overlapping time slots, and suggests the best available times. This system is suitable for use via a Web Portal, Mobile App, or Chat Interface and integrates optional calendar synchronization features.
+![System Diagram for Question 1](./Question1.png)
 
-## System Components
+The system for retrieving and displaying shipping information works as follows:
+
+1. **User**
+   - **Function**: Initiates a request to check the shipping status of an order by providing the **Order ID**.
+   - **Description**: Represents the customer seeking information about their order's shipping status.
+
+2. **User Interface**
+   - **Function**: Receives the **Order ID** from the user and forwards the request to the backend via the **API Gateway**.
+   - **Description**: Serves as the point of interaction between the user and the system (e.g., web or mobile app).
+
+3. **API Gateway**
+   - **Function**: Acts as an intermediary, routing the user's request to the appropriate backend components, specifically the **Management System**.
+   - **Description**: Manages incoming API requests and directs them to the correct service.
+
+4. **Management System**
+   - **Function**: Handles the order query by querying the **Database** for shipping information based on the provided Order ID. If necessary, retrieves real-time tracking updates from **Third-Party Shipping** providers.
+   - **Description**: Core component responsible for processing order information and integrating with external services.
+
+5. **Database**
+   - **Function**: Stores order details, including status and tracking information. Provides existing shipping data when queried by the Management System.
+   - **Description**: Acts as the central repository for order and shipping data.
+
+6. **Third-Party Shipping**
+   - **Function**: Provides real-time shipping updates. The Management System interacts with these services (e.g., FedEx, UPS) to retrieve the latest tracking information.
+   - **Description**: External shipping carriers integrated into the system for up-to-date tracking.
+
+7. **Response Flow**
+   - **Function**: The Management System sends a response back to the API Gateway, which forwards it to the **User Interface**. The user can then view the current shipping status and tracking updates.
+   - **Description**: Completes the information loop by delivering the requested data back to the user.
 
 ### Answer to Question 2: Functions and Descriptions of Each Component
+
+![System Diagram for Question 2](./Question2.png)
 
 1. **Users**
    - **Function**: Users provide their availability and constraints through messages.
@@ -29,9 +59,7 @@ This Meeting Scheduler System is designed to help multiple users schedule meetin
 ## System Workflow
 
 1. **User Input**: Users enter availability and preferences through the User Interface (web, mobile, or chat).
-2. **NLP Parsing**: The NLP Parsing Module interprets the natural language input and converts it into structured JSON data.
-3. **Availability Management**: Parsed data is stored and managed in JSON format.
-4. **Scheduling**: The Management System finds overlapping availability, prioritizes according to preferences, and suggests the best meeting time.
+2. **NLP Parsing**: The NLP Module interprets the natural language input and converts it into structured JSON data.
+3. **Availability Management**: Parsed data is stored and managed in JSON files.
+4. **Scheduling**: The Management System finds overlapping availability, applies preference weights, and suggests the optimal meeting time.
 5. **User Confirmation**: Suggested times are displayed through the User Interface for user review.
-6. **Finalization**: Once a time slot is confirmed, notifications are sent to all participants.
-7. **Calendar Integration (Optional)**: If enabled, the system adds the meeting to users’ Google or Outlook calendars.
